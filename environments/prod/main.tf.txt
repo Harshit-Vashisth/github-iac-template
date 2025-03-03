@@ -1,0 +1,6 @@
+module "example" {
+  source = "../../modules/example_module"
+  env    = "prod"
+  ami    = var.ami
+  instance_type = var.instance_type
+}
